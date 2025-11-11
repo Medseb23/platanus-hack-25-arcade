@@ -1556,3 +1556,4 @@ function drawHUD(){
   mapG.fillStyle(0xff5555,1); enemies.forEach(e=> mapG.fillRect(ox+e.x*sX-2, oy+e.y*sY-2, 4,4));
   if(portal){ mapG.fillStyle(0x8ab4ff,1); mapG.fillRect(ox+portal.x*sX-2, oy+portal.y*sY-2, 4,4); }
 }
+// cover bump
